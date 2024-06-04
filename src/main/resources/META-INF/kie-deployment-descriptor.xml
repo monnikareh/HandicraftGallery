@@ -18,7 +18,7 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("127.0.0.1", "2500", "user", "password")</identifier>
+            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.gmail.com", "587", "handicraft.gallery.jbpm@gmail.com", "npug wgoh mpiq umxs", "true")</identifier>
             <parameters/>
             <name>Email</name>
         </work-item-handler>
